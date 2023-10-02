@@ -44,8 +44,13 @@
 
       LIST ANY CITATIONS HERE
 
-        * A
-        * B
+        * A https://www.pexels.com/search/travel/
+        * B https://www.pexels.com/search/restaurant/
+        * C https://www.pexels.com/search/canada/ 
+        * D https://www.britannica.com/dictionary/hotel#:~:text=%3A%20a%20place%20that%20has%20rooms,check%20into%20a%20hotel
+        * E https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/hotels-and-hotel-industry#:~:text=The%20primary%20purpose%20of%20hotels,a%20journey%20away%20from%20home.
+        * F https://travel.destinationcanada.com/en-ca/things-to-do/top-10-attractions-ottawa
+
 
     -->
 
@@ -54,7 +59,161 @@
       YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
 
     -->
+<header>
+  <h2>Site Header</h2>
 
-    <h1>Assignment 01 - To Be Completed</h1>
-  </body>
+  <p>Site title: The Wonders of Travel</p>
+  <img
+        src="./images/pexels-david-bartus-586687.jpg"
+        alt="Logo for The Wonders of Travel"
+      />
+      <nav>
+        <h3>Site Menu</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+    <h1>The Wonders of Travel</h1>
+    
+    <p>This page is focusing on travel delights centered in Canada's capital city, Ottawa.</p>
+      <img
+        src="./images/pexels-porapak-apichodilok-346885.jpg"
+        alt="Logo for The Wonders of Travel"
+      />
+    </section>
+
+    <section>
+      <h2>Table of contents</h2>
+
+      <ul>
+        <li>
+          <a href="#airlines">Airline services to use</a>
+        </li>
+        <li><a href="#hotels">Hotels</a></li>
+        <li><a href="#restaurants">Restaurants</a></li>
+        <li><a href="#places">Places to visit</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="airlines">Airline services to use</h2>
+      <p>These airline offer the best dicounts and are famously known in Ottawa. 
+        This has given these airlines much more publicity and are always primarily considered over other airlines. These airlines are:</p>
+      <img
+        src="./images/pexels-janiere-fernandez-2405101.jpg"
+        alt="Logo for The Wonders of Travel"
+      />
+        <ul>
+          <li>Quatar</li>
+          <li>Emirates</li>
+          <li>Lufthansa</li>
+        </ul>
+    </section>
+
+    <section>
+      <h2 id="hotels">Hotels</h2>
+      <p>A Hotel is a place that has rooms in which people can stay especially when they are traveling. It is a place that provides food, lodging, and other services for paying guests.
+        The primary purpose of hotels is to provide travelers with shelter, food, refreshment, and similar services and goods, offering on a commercial basis things that are customarily furnished within households but unavailable to people on a journey away from home.
+        There are various Hotels to consider on your stay, some are:</p>
+      <img
+        src="./images/pexels-michael-block-3225531.jpg"
+        alt="Logo for The Wonders of Travel"
+      />
+        <ul>
+          <li>Residence Inn by Mariott</li>
+          <li>Four Points by Sheraton</li>
+          <li>Courtyard by Mariott</li>
+        </ul>
+    </section>
+    <section>
+      <h2 id="restaurants">Restaurants</h2>
+      <p>Restaurants are business establishments that provide foods, drinks, and snacks to customers. These establishments are also known as eateries, diners, cafes, and cafeterias, but these terms are not always used in the same way. Restaurants vary greatly in appearance and offerings, including a wide variety of cuisines and service models ranging from inexpensive fast food restaurants and cafeterias, to mid-priced family restaurants, to high-priced luxury establishments.
+        A good restaurant is one that serves healthy and tasty food to its customers. Customers are the most important part of a business, and they can be satisfied only if they get healthy and tasty food at nominal prices. A good restaurant should have a clean environment and friendly staff. The food should be prepared in a hygienic manner. The restaurant should have a good ambience and be well furnished. The restaurant should have a good location so that it can attract more customers.
+        There are various Restaurants to consider on your stay as good food could feed a craving soul, some good choices would be:</p>
+      <img
+        src="./images/pexels-life-of-pix-67468.jpg"
+        alt="Logo for The Wonders of Travel"
+      />
+        <ul>
+          <li>Harveys</li>
+          <li>East side Marios</li>
+          <li>Eggspectations</li>
+        </ul>
+    </section>
+    <section>
+      <h2 id="places">Places to visit</h2>
+      <p>Ottawa is Canada's capital city, it would a great choice to take a look at neighboring cities in the ontario province during your stay. 
+        You should not limit your tourism to just Ottawa, there are various places to visit in the province.
+       These places are considered as the greatest tourists attractions here in canada, some are:</p>
+      <img
+        src="./images/pexels-taylor-marx-11448161.jpg"
+        alt="Logo for The Wonders of Travel"
+      />
+        <ul>
+          <li>Canada's wonderland</li>
+          <li>Calypso Waterpark,Limoges, Ontario</li>
+          <li>Museum of Illusions</li>
+          <li>National Gallery of Canada</li>
+          <li>Canadian War Museum</li>
+        </ul>
+      </section>
+    <h2>Our Contact Form</h2>
+    <form>
+      <fieldset>
+      <legend>Contact Us</legend>
+      <label for="name">Name:</label>
+      <input type="text"
+       required
+       id="name" 
+       autocomplete="name"
+       placeholder="Steve Rogers"/>
+      <label for="email">Email:</label>
+      <input type="email" 
+      id="email" 
+      placeholder="steve.rogers@marvel.com"
+      name="email" 
+      autocomplete="email" >
+    </fieldset>
+    <fieldset>
+      <label for="phone">Phone:</label>
+      <input placeholder="613-456-7890"
+      type="tel" name="phone" id="phone" autocomplete="tel">
+      <label for="urgency">Urgency:</label>
+      <input type="range" id="urgency" name="urgency">
+      <label for="message">Message:</label>
+      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+      <input type="submit" value="Submit your message"/>
+    </fieldset>
+    </form>
+  </main>
+  <footer>
+    <h2>Site Footer</h2>
+    <p>Site title: The Wonders of Travel</p>
+    <img
+        src="./images/pexels-david-bartus-586687.jpg"
+        alt="Logo for The Wonders of Travel"
+      />
+      <nav>
+        <h3>Site Menu</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <h4>Address</h4>
+      <p>1125 Colonel By Drive,
+          Ottawa, ON K1S 5B6</p>
+      <h4>Contact</h4>
+      <p>Phone: 613-456-7890</p>
+      <p>&copy;2023</p>
+  </footer>
+</body>
 </html>
